@@ -26,7 +26,7 @@ export default function Cesta() {
 const estilos = StyleSheet.create({
     topo: {
         width: "100%",
-        height: 578 / 768 * width
+        height: 578 / 768 * width,
     },
     titulo: {
         width: "100%",
@@ -45,8 +45,8 @@ const estilos = StyleSheet.create({
     nome: {
         color: "#464646",
         fontSize: 26,
-        fontWeight: "bold",
-        lineHeight: 42
+        lineHeight: 42,
+        fontFamily: "MontserratBold"
     },
     fazenda: {
         flexDirection: "row",
@@ -60,7 +60,8 @@ const estilos = StyleSheet.create({
         color: "#464646",
         fontSize: 16,
         lineHeight: 26,
-        marginLeft: 12
+        marginLeft: 12,
+        fontFamily: "MontserratRegular"
     },
     descricao: {
         color: "#a3a3a3",
